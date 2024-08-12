@@ -2,6 +2,8 @@ import { Hono } from "hono";
 import { db } from "./db";
 
 const app = new Hono();
+// @ts-ignore
+const port =  process.env.PORT || 3000;
 
 app.get('/spots', async (c) => {
   return new Promise((resolve) => {

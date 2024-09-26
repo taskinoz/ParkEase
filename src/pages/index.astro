@@ -1,10 +1,21 @@
 ---
+import { db, Cars } from 'astro:db';
+
+const car = await db.select().from(Cars)
 
 ---
 
 <h1>
 	Park Ease
 </h1>
+
+<div>
+	{car.map((car) => (
+		<div>
+			{car.make} {car.model}
+		</div>
+	))}
+</div>
 
 <p>
 	Welcome to Park Ease! We are a parking management system that helps you find parking spots in your area.

@@ -22,18 +22,18 @@ export default async function seed() {
 	]);
 
 	await db.insert(Bookings).values([
-		{ id: '1', date: new Date('2021-10-01'), time: '10:00', car: 1, parking_spot: 'A1' },
-		{ id: '2', date: new Date('2021-10-01'), time: '11:00', car: 2, parking_spot: 'A2' },
-		{ id: '3', date: new Date('2021-10-01'), time: '12:00', car: 3, parking_spot: 'A3' },
-		{ id: '4', date: new Date('2021-10-01'), time: '13:00', car: 4, parking_spot: 'A4' },
-		{ id: '5', date: new Date('2021-10-01'), time: '14:00', car: 5, parking_spot: 'A5' },
-		{ id: '6', date: new Date('2021-10-01'), time: '15:00', car: 6, parking_spot: 'A6' },
-		{ id: '7', date: new Date('2021-10-01'), time: '16:00', car: 7, parking_spot: 'A7' },
-		{ id: '8', date: new Date('2021-10-01'), time: '17:00', car: 8, parking_spot: 'A8' },
-		{ id: '9', date: new Date('2021-10-01'), time: '18:00', car: 9, parking_spot: 'A9' },
-		{ id: '10', date: new Date('2021-10-01'), time: '19:00', car: 10, parking_spot: 'A10' },
-		{ id: '11', date: new Date('2021-10-01'), time: '20:00', car: 11, parking_spot: 'A11' },
-		{ id: '12', date: new Date('2021-10-01'), time: '21:00', car: 12, parking_spot: 'A12' },
-		{ id: '13', date: new Date('2021-10-01'), time: '22:00', car: 13, parking_spot: 'A13' },
+		{ id: 1, date: new Date('2021-10-01'), time: '10:00', car: 1, parking_spot: 'A1' },
+		{ id: 2, date: new Date('2021-10-01'), time: '11:00', car: 2, parking_spot: 'A2' },
+		{ id: 3, date: new Date('2021-10-01'), time: '12:00', car: 3, parking_spot: 'A3' },
+		{ id: 4, date: new Date('2021-10-01'), time: '13:00', car: 4, parking_spot: 'A4' },
+		{ id: 5, date: new Date('2021-10-01'), time: '14:00', car: 5, parking_spot: 'A5' },
+		{ id: 6, date: new Date('2021-10-01'), time: '15:00', car: 6, parking_spot: 'A6' },
+		{ id: 7, date: new Date('2021-10-01'), time: '16:00', car: 7, parking_spot: 'A7' },
+		{ id: 8, date: new Date('2021-10-01'), time: '17:00', car: 8, parking_spot: 'A8' },
+		{ id: 9, date: new Date('2021-10-01'), time: '18:00', car: 9, parking_spot: 'A9' },
+		{ id: 10, date: new Date('2021-10-01'), time: '19:00', car: 10, parking_spot: 'A10' },
+		{ id: 11, date: new Date('2021-10-01'), time: '20:00', car: 11, parking_spot: 'A11' },
+		{ id: 12, date: new Date('2021-10-01'), time: '21:00', car: 12, parking_spot: 'A12' },
+		{ id: 13, date: new Date('2021-10-01'), time: '22:00', car: 13, parking_spot: 'A13' },
 	]);
 }
